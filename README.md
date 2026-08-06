@@ -41,3 +41,31 @@
    ```bash
    git clone https://github.com/VetoMin-AC/warden.git
    cd warden
+## 🔒 Safety & Trust
+
+> **Warden interacts with system processes and network connections.**  
+> Some antivirus software may temporarily flag it (this is common for network monitoring tools).
+
+### ✅ Verified & Transparent
+
+- The source code is **fully open** and available for review.
+- The compiled `.exe` file can be scanned using **[VirusTotal](https://www.virustotal.com)** — a free online service that checks files against 60+ antivirus engines.
+- If you're unsure about the file, we **encourage you to scan it yourself** before running it.
+
+### 🧪 How to verify the `.exe` file
+
+1. Download the latest `WARDEN.exe` from the [Releases](https://github.com/VetoMin-AC/warden/releases) page.
+2. Go to **[VirusTotal](https://www.virustotal.com)**.
+3. Click **"Choose File"** and select the downloaded `WARDEN.exe`.
+4. Wait for the scan to complete (usually takes 1–2 minutes).
+5. Review the results — if it's clean, you're safe to run it.
+
+### 🔐 Why trust this project?
+
+- The code is publicly available — no hidden or obfuscated logic.
+- No encrypted payloads, no remote connections, no data collection.
+- It only does what it says: monitors and manages network connections.
+
+If you still have doubts, feel free to open an issue or contact the author directly.
+
+> ⚠️ **False positives are common** for tools like Warden because they access system memory and processes. This is normal behavior and does **not** mean the file is malicious.
